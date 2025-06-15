@@ -67,7 +67,7 @@ export default function ProductForm() {
         <h2 className="text-2xl font-bold text-center">Product Registration</h2>
 
         {/* Name Fields */}
-        <div className="flex gap-4">
+        <div className="flex flex-col sm:flex-row gap-4">
           <input
             type="text"
             name="firstName"
