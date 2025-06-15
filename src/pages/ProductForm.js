@@ -1,7 +1,16 @@
-// src/pages/ProductForm.js
-import React from "react";
+import { useNavigate } from "react-router-dom";
+
+
 
 export default function ProductForm() {
+
+const navigate = useNavigate();
+
+  const handleBack = () => {
+    navigate("/"); 
+  };
+
+
   return (
     <div className="min-h-screen bg-gray-900 text-white flex items-center justify-center p-4">
       <form className="bg-gray-800 p-8 rounded-lg shadow-lg w-full max-w-lg space-y-4">
@@ -44,6 +53,17 @@ export default function ProductForm() {
         >
           Submit
         </button>
+              
+
+                <button
+            type="button"
+            onClick={handleBack}
+            className="w-full bg-purple-600 hover:bg-purple-700 transition-colors text-white py-2 rounded font-semiboldd"
+          >
+            Cancel
+          </button>
+
+
       </form>
     </div>
   );
