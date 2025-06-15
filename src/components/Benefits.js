@@ -25,7 +25,7 @@ export default function BenefitSection() {
   ];
 
   return (
-    <section className="bg-gray-950 py-20 px-4 sm:px-8 lg:px-32 text-white">
+    <section id="Benefits" className="bg-gray-950 py-20 px-4 sm:px-8 lg:px-32 text-white">
       <h2 className="text-3xl font-bold text-center mb-12 text-white">Benefits of Using Our Platform</h2>
       <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-2">
         {benefits.map((benefit, index) => (

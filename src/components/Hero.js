@@ -5,7 +5,7 @@ export default function Hero() {
   const navigate = useNavigate();
 
   return (
-    <section className="relative bg-gray-950 text-white py-40 px-4 sm:px-8 lg:px-32 overflow-hidden">
+    <section id="Hero" className="relative bg-gray-950 text-white py-40 px-4 sm:px-8 lg:px-32 overflow-hidden">
       {/* Background Image */}
       <motion.img
         src="https://mutaengine.cloud/static/media/img2.88727ed124229bd838a0.webp"

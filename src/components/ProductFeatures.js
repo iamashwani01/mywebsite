@@ -25,7 +25,7 @@ export default function ProductFeatures() {
   ];
 
   return (
-    <section className="bg-gray-950 py-20 px-4 sm:px-8 lg:px-32 text-white">
+    <section id="Features" className="bg-gray-950 py-20 px-4 sm:px-8 lg:px-32 text-white">
       <h2 className="text-3xl font-bold text-center mb-12 text-white">
         Key Features
       </h2>

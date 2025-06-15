@@ -27,7 +27,7 @@ const techItems = [
 
 export default function Technology() {
   return (
-    <section className="bg-gray-950 py-16 px-4 sm:px-8 lg:px-32 text-white">
+    <section id="Technology" className="bg-gray-950 py-16 px-4 sm:px-8 lg:px-32 text-whit">
       <motion.h2
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
