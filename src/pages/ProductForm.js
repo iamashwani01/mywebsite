@@ -5,6 +5,9 @@ import { motion } from "framer-motion";
 import { User } from "lucide-react";
 
 export default function ProductForm() {
+
+
+  
   const [form, setForm] = useState({
     firstName: "",
     lastName: "",
